@@ -1,4 +1,5 @@
-# NDLab01 - Packet Tracer Introduction
+# NDLab01 - Packet Tracer Network Implementation
+
 
 ## 1. Giới thiệu
 Bài thực hành triển khai và kiểm thử một mô hình mạng bằng Cisco Packet Tracer.
@@ -30,9 +31,5 @@ Các lệnh và công cụ được sử dụng:
 
 Kết quả kiểm thử T1–T7: **PASS**.
 
-## 5. File trong Repository
-- `NDLab01.pkt`: File mô hình Cisco Packet Tracer của bài thực hành.
-- `README.md`: Tài liệu mô tả bài thực hành.
-
-## 6. Cách sử dụng
+## 5. Cách sử dụng
 Mở file `NDLab01.pkt` bằng Cisco Packet Tracer để xem topology, cấu hình thiết bị và thực hiện lại các bước kiểm thử.
