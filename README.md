@@ -1,30 +1,38 @@
 # NDLab01 - Packet Tracer Introduction
 
-## Description
-This project implements a basic network topology using Cisco Packet Tracer.
+## 1. Giới thiệu
+Bài thực hành triển khai và kiểm thử một mô hình mạng bằng Cisco Packet Tracer.
 
-## Devices
+## 2. Thành phần mạng
 - R1-ISP
 - R2-Central
 - S1-Central
 - Eagle Server
-- 11 Pods with 2 hosts per Pod
+- 11 Pod, mỗi Pod gồm 2 máy tính
 
-## Main Configuration
-- Serial connection between R1-ISP and R2-Central
-- LAN connection from R2-Central to S1-Central
-- Eagle Server connected to R1-ISP
-- Static routing between the networks
-- IP addressing configured according to the lab requirements
+## 3. Nội dung thực hiện
+- Cấu hình địa chỉ IP cho các thiết bị.
+- Cấu hình kết nối Serial giữa R1-ISP và R2-Central.
+- Cấu hình kết nối LAN giữa R2-Central và S1-Central.
+- Cấu hình Eagle Server.
+- Cấu hình static route giữa các mạng.
+- Kiểm tra kết nối giữa các thiết bị.
 
-## Verification
-The network was verified using:
+## 4. Kiểm thử
+Các lệnh và công cụ được sử dụng:
 - `show ip interface brief`
 - `show ip route`
+- `show running-config`
 - `ipconfig`
 - `ping`
 - `tracert`
-- Simulation Mode with ARP/ICMP
+- Simulation Mode với ARP/ICMP
 
-## Files
-- `NDLab01.pkt` - Cisco Packet Tracer project
+Kết quả kiểm thử T1–T7: **PASS**.
+
+## 5. File trong Repository
+- `NDLab01.pkt`: File mô hình Cisco Packet Tracer của bài thực hành.
+- `README.md`: Tài liệu mô tả bài thực hành.
+
+## 6. Cách sử dụng
+Mở file `NDLab01.pkt` bằng Cisco Packet Tracer để xem topology, cấu hình thiết bị và thực hiện lại các bước kiểm thử.
